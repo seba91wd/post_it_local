@@ -1,0 +1,42 @@
+/* Début style des boutons */
+.p_it_div_all {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 10px;
+    background-color: #000000c2;
+    border-radius: 10px;
+    width: 18px;
+    transition: 0.5s;
+}
+
+.p_it_div_btn {
+    display: none;
+    transition: 0.5s;
+}
+
+.p_it_btn_valeur,
+.p_it_btn_action {
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 5px solid #000000;
+    padding: 2px;
+    /* background-color: rgb(242, 152, 41); */
+}
+
+.p_it_div_btn input[type=button] {
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 5px solid #000000;
+    padding: 2px;
+    width: 54px;
+    /* background-color: rgb(242, 152, 41); */
+}
+
+.p_it_img {
+    width: 66px;
+    height: 21px;
+}
+
+/* Fin style des boutons */

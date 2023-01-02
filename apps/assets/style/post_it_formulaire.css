@@ -1,0 +1,75 @@
+.p_it_formulaire form {
+    text-align: center;
+}
+
+.titre_post {
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 20px;
+    width: 260px;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.message_post {
+    padding: 5px;
+    font-size: 20px;
+    height: 212px;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    resize: none;
+}
+
+.btn_valider {
+    position: relative;
+    bottom: 34px;
+    left: 116px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 5px solid #000000;
+    padding: 2px;
+}
+
+/*
+Classes des message d'érreur du formulaire
+*/
+
+.p_it_form_msg {
+    position: absolute;
+    animation-name: msg_animation;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.p_it_form_msg_titre {
+    margin-top: 14px;
+    margin-left: 60px;
+}
+
+.p_it_form_msg_mess {
+    margin-top: 140px;
+    margin-left: 45px;
+}
+
+@keyframes msg_animation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        scale: 1.1;
+        opacity: 1;
+    }
+
+    99% {
+        scale: 1;
+        opacity: 0;
+    }
+
+    100% {
+        visibility: hidden;
+        display: none;
+    }
+}

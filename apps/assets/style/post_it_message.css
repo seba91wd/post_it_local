@@ -1,0 +1,29 @@
+.p_it_message .p_it_div_all{
+    position: absolute;
+    margin: 4px 4px;
+}
+
+.p_it_p{
+    padding: 10px;
+}
+
+.date_post_fr{
+    position: absolute;
+    bottom: 0px;
+}
+
+.p_it_message input[type=image]{
+    width: 22px;
+}
+
+.p_it_img_etat{
+    position: absolute;
+    width: 300px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+/* Par defaut en 'display: none', controllé en JS */
+.p_it_mess_edit{
+    display: none;
+}
